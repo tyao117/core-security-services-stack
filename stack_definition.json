@@ -1,6 +1,12 @@
 {
   "inputs": [
     {
+      "name": "ibmcloud_api_key",
+      "required": true,
+      "type": "password",
+      "hidden": false
+    },
+    {
       "name": "use_existing_resource_group",
       "value": false,
       "required": true
@@ -21,6 +27,9 @@
       "required": true,
       "type": "string",
       "default": "core-security"
+    },
+    {
+
     }
   ],
   "members": [

@@ -151,7 +151,7 @@
                         },
                         {
                             "name": "region",
-                            "value": "us-south",
+                            "default_value": "us-south",
                             "required": true
                         }
                     ],
