@@ -12,12 +12,6 @@
       "hidden": false
     },
     {
-      "name": "ibmcloud_api_key",
-      "required": true,
-      "type": "password",
-      "hidden": false
-    },
-    {
       "name": "region",
       "value": "us-south",
       "required": true
@@ -42,10 +36,6 @@
           "value": "ref:../../inputs/use_existing_resource_group"
         },
         {
-          "name": "ibmcloud_api_key",
-          "value": "ref:../../inputs/ibmcloud_api_key"
-        },
-        {
           "name": "region",
           "value": "ref:../../inputs/region"
         }
@@ -61,11 +51,7 @@
         },
         {
           "name": "use_existing_resource_group",
-          "value": "ref:../../inputs/use_existing_resource_group"
-        },
-        {
-          "name": "ibmcloud_api_key",
-          "value": "ref:../../inputs/ibmcloud_api_key"
+          "value": true
         },
         {
           "name": "region",
@@ -103,11 +89,7 @@
         },
         {
           "name": "use_existing_resource_group",
-          "value": "ref:../../inputs/use_existing_resource_group"
-        },
-        {
-          "name": "ibmcloud_api_key",
-          "value": "ref:../../inputs/ibmcloud_api_key"
+          "value": true
         },
         {
           "name": "region",
@@ -125,7 +107,7 @@
         },
         {
           "name": "use_existing_resource_group",
-          "value": "ref:../../inputs/use_existing_resource_group"
+          "value": true
         },
         {
           "name": "ibmcloud_api_key",
@@ -147,11 +129,7 @@
         },
         {
           "name": "use_existing_resource_group",
-          "value": "ref:../../inputs/use_existing_resource_group"
-        },
-        {
-          "name": "ibmcloud_api_key",
-          "value": "ref:../../inputs/ibmcloud_api_key"
+          "value": true
         },
         {
           "name": "region",
