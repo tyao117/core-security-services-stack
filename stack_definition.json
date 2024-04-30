@@ -27,9 +27,6 @@
       "required": true,
       "type": "string",
       "default": "core-security"
-    },
-    {
-
     }
   ],
   "members": [
@@ -37,7 +34,7 @@
       "inputs": [
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/security_resource_group_name"
+          "value": "ref:../../inputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -46,6 +43,10 @@
         {
           "name": "region",
           "value": "ref:../../inputs/region"
+        },
+        {
+          "name": "prefix",
+          "value": "ref:../../inputs/prefix"
         }
       ],
       "name": "core-security-services-kms",
@@ -55,7 +56,7 @@
       "inputs": [
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/security_resource_group_name"
+          "value": "ref:../../inputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -72,6 +73,10 @@
         {
           "name": "kms_endpoint_type",
           "value": "private"
+        },
+        {
+          "name": "prefix",
+          "value": "ref:../../inputs/prefix"
         }
       ],
       "name": "core-security-observability",
@@ -93,7 +98,7 @@
         },
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/security_resource_group_name"
+          "value": "ref:../../inputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -111,7 +116,7 @@
       "inputs": [
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/security_resource_group_name"
+          "value": "ref:../../inputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -124,6 +129,10 @@
         {
           "name": "region",
           "value": "ref:../../inputs/region"
+        },
+        {
+          "name": "prefix",
+          "value": "ref:../../inputs/prefix"
         }
       ],
       "name": "core-security-services-scc",
@@ -133,7 +142,7 @@
       "inputs": [
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/security_resource_group_name"
+          "value": "ref:../../inputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -142,6 +151,10 @@
         {
           "name": "region",
           "value": "ref:../../inputs/region"
+        },
+        {
+          "name": "prefix",
+          "value": "ref:../../inputs/prefix"
         }
       ],
       "name": "core-security-services-sm",
