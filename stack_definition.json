@@ -8,7 +8,7 @@
     },
     {
       "name": "use_existing_resource_group",
-      "value": false,
+      "type": "boolean",
       "required": true
     },
     {
@@ -19,7 +19,6 @@
     },
     {
       "name": "region",
-      "value": "us-south",
       "required": true
     },
     {
@@ -86,11 +85,11 @@
       "inputs": [
         {
           "name": "kms_endpoint_url",
-          "value": "ref:../configs/core-security-services-kms/outputs/kp_private_endpoint"
+          "value": "ref:../../members/core-security-services-kms/outputs/kp_private_endpoint"
         },
         {
           "name": "existing_kms_instance_crn",
-          "value": "ref:../configs/core-security-services-kms/outputs/key_protect_crn"
+          "value": "ref:../../members/core-security-services-kms/outputs/key_protect_crn"
         },
         {
           "name": "kms_endpoint_type",
@@ -123,16 +122,32 @@
           "value": true
         },
         {
-          "name": "ibmcloud_api_key",
-          "value": "ref:../../inputs/ibmcloud_api_key"
-        },
-        {
           "name": "region",
           "value": "ref:../../inputs/region"
         },
         {
           "name": "prefix",
           "value": "ref:../../inputs/prefix"
+        },
+        {
+          "name": "existing_kms_instance_crn",
+          "value": "ref:../../members/core-security-services-kms/outputs/key_protect_crn"
+        },
+        {
+          "name": "existing_monitoring_crn",
+          "value": "ref:../../members/core-security-services-observability/outputs/cloud_monitoring_crn"
+        },
+        {
+          "name": "existing_cos_instance_crn",
+          "value": "ref:../../members/core-security-services-observability/outputs/cos_instance_crn"
+        },
+        {
+          "name": "kms_endpoint_type",
+          "value": "private"
+        },
+        {
+          "name": "existing_en_crn",
+          "value": "ref:../../members/core-security-services-en/outputs/crn"
         }
       ],
       "name": "core-security-services-scc",
@@ -155,6 +170,10 @@
         {
           "name": "prefix",
           "value": "ref:../../inputs/prefix"
+        },
+        {
+          "name": "existing_kms_instance_crn",
+          "value": "ref:../../members/core-security-services-kms/outputs/key_protect_crn"
         }
       ],
       "name": "core-security-services-sm",
