@@ -55,7 +55,7 @@
       "inputs": [
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/resource_group_name"
+          "value": "ref:../../members/core-security-services-kms/outputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -67,7 +67,7 @@
         },
         {
           "name": "existing_kms_instance_crn",
-          "value": "ref:../configs/core-security-services-kms/outputs/key_protect_crn"
+          "value": "ref:../../members/core-security-services-kms/outputs/key_protect_crn"
         },
         {
           "name": "kms_endpoint_type",
@@ -97,7 +97,7 @@
         },
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/resource_group_name"
+          "value": "ref:../../members/core-security-services-kms/outputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -115,7 +115,7 @@
       "inputs": [
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/resource_group_name"
+          "value": "ref:../../members/core-security-services-kms/outputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",
@@ -157,7 +157,7 @@
       "inputs": [
         {
           "name": "resource_group_name",
-          "value": "ref:../../inputs/resource_group_name"
+          "value": "ref:../../members/core-security-services-kms/outputs/resource_group_name"
         },
         {
           "name": "use_existing_resource_group",

@@ -133,6 +133,7 @@
                         {
                             "key": "prefix",
                             "type": "string",
+                            "description": "The prefix to use for all resources deployed.",
                             "required": true
                         },
                         {
@@ -144,7 +145,8 @@
                         {
                             "name": "resource_group_name",
                             "required": true,
-                            "type": "string"
+                            "type": "string",
+                            "description": "The name of the resource_group_name"
                         },
                         {
                             "name": "ibmcloud_api_key",
@@ -154,7 +156,7 @@
                         },
                         {
                             "name": "region",
-                            "default_value": "us-south",
+                            "description": "The region to deploy all resources",
                             "required": true
                         }
                     ],
