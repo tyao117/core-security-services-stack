@@ -131,22 +131,20 @@
                     },
                     "configuration": [
                         {
-							"key": "prefix",
-							"type": "string",
-							"required": true
-						},
+                            "key": "prefix",
+                            "type": "string",
+                            "required": true
+                        },
                         {
                             "key": "use_existing_resource_group",
                             "type": "boolean",
-                            "default_value": false,
                             "description": "Whether to use an existing resource group.",
                             "required": true
                         },
                         {
                             "name": "resource_group_name",
                             "required": true,
-                            "type": "string",
-                            "hidden": false
+                            "type": "string"
                         },
                         {
                             "name": "ibmcloud_api_key",
