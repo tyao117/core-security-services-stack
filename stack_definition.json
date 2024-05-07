@@ -79,7 +79,7 @@
         }
       ],
       "name": "core-security-observability",
-      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.a3137d28-79e0-479d-8a24-758ebd5a0eab"
+      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.3ae7c6ae-20c2-4214-b3b9-7110356b4b6c"
     },
     {
       "inputs": [
@@ -181,7 +181,7 @@
         }
       ],
       "name": "core-security-services-sm",
-      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.6d6ebc76-7bbd-42f5-8bc7-78f4fabd5944"
+      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.4c4b156f-22ff-47be-8519-a09d5fb80d9c"
     }
   ]
 }
