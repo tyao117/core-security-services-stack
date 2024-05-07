@@ -79,7 +79,7 @@
         }
       ],
       "name": "core-security-observability",
-      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.826011ab-274b-4010-8935-a463d74f5d31"
+      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.a3137d28-79e0-479d-8a24-758ebd5a0eab"
     },
     {
       "inputs": [
@@ -135,15 +135,19 @@
         },
         {
           "name": "existing_monitoring_crn",
-          "value": "ref:../../members/core-security-services-observability/outputs/cloud_monitoring_crn"
+          "value": "ref:../../members/core-security-observability/outputs/cloud_monitoring_crn"
         },
         {
           "name": "existing_cos_instance_crn",
-          "value": "ref:../../members/core-security-services-observability/outputs/cos_instance_crn"
+          "value": "ref:../../members/core-security-observability/outputs/cos_instance_crn"
         },
         {
           "name": "kms_endpoint_type",
           "value": "private"
+        },
+        {
+          "name": "skip_cos_kms_auth_policy",
+          "value": "true"
         },
         {
           "name": "existing_en_crn",
@@ -177,7 +181,7 @@
         }
       ],
       "name": "core-security-services-sm",
-      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.e9f80ad1-b9a0-4884-be72-650403bdcf76"
+      "version_locator": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd.6d6ebc76-7bbd-42f5-8bc7-78f4fabd5944"
     }
   ]
 }
